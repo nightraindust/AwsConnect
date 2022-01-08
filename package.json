@@ -1,0 +1,28 @@
+{
+  "name": "imranaws",
+  "version": "1.0.0",
+  "description": "Seller Centeral AWS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Vitalii Kuzin",
+  "license": "MIT",
+  "dependencies": {
+    "@scaleleap/amazon-advertising-api-sdk": "^3.2.0",
+    "axios": "^0.21.0",
+    "bcryptjs": "^2.4.3",
+    "client": "file:client",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.6"
+  }
+}
